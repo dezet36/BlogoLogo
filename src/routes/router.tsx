@@ -24,10 +24,10 @@ export const router = createBrowserRouter(
       <Route path={ROUTE.SEARCH} element={<SearchPage />} />
       <Route path={ROUTE.SIGN_IN} element={<SignInPage />} />
       <Route path={ROUTE.SIGN_UP} element={<SignUpPage />} />
-      <Route element={}>
+      {/* <Route element={<Authentication />}>
         <Route path={ROUTE.ACCOUNT} element={<AccountPage />} />
         <Route path={ROUTE.FAVORITES} element={<FavoritePage />} />
-      </Route>
+      </Route> */}
     </Route>
   )
 );

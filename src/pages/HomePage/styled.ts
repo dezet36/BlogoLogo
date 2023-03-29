@@ -34,8 +34,24 @@ export const TabsBlock = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
+  margin-left: 10px;
   border-bottom: 1px solid ${Color.WHITE};
   ${Media.MEDIUM} {
     justify-content: center;
   }
+`;
+
+export const SortTimeWrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+`;
+
+export const BlogList = styled.div`
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17.5px;
+  padding-top: 50px;
 `;
